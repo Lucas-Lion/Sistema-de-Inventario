@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+/*  
+    PALETA DE CORES
+
+    HEADER = #0c5b91
+    NAV    = #1a729f
+    BODY   = #f0f6f6
+    DIV    = #0c5b91
+    FONT   = #ffffff
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f6f6;
+}
+
+header {
+    background-color: #0c5b91;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}
+
+nav {
+    background-color: #1a729f;
+    position: relative;
+    bottom: -28%;
+}
+
+li {
+    text-align: right;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+li > a:hover {
+    background-color: #124e6b;
+    padding-left: 10px;
+}
