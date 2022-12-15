@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+.imagem-1 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/computadores.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:280px;
+    width:280px; 
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 70px 100px 90px -50px;
+    display: inline-block;
+    }
+
+.imagem-2 {
+
+
+    background-color: #0c5b91;
+    background-image: url(../imagens/rede.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 70px 100px 90px 40px;
+    display: inline-block;
+    }
+
+.imagem-3 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/cabo.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 70px 0px 20px 40px;
+    display: inline-block;
+    }
+
+
+.imagem-4 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/roteador.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 40px 100px 90px -50px;
+    display: inline-block;
+    }
+    
+.imagem-5 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/rato.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 40px 100px 90px 40px;
+    display: inline-block;
+    }
+
+.imagem-6 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/caixa-de-ferramentas.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 40px 0px 20px 40px;
+    display: inline-block;
+
+    }
+
+
+.imagem-7 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/disco-compacto.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 40px 100px 90px -50px;
+    display: inline-block;
+    }
+    
+.imagem-8 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/toner.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+
+    margin: 40px 100px 90px 40px;
+    display: inline-block;
+    }
+
+.imagem-9 {
+    background-color: #0c5b91;
+    background-image: url(../imagens/mais.png);  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:280px;
+    width:280px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+    
+    margin: 40px 0px 60px 40px;
+    display: inline-block;
+    }
+
+.texto {
+    font-family:Arial;
+    text-align:center;
+    
+    color:white;
+    background-color:rgba(0,0,0,.7);
+
+    height:260px;
+    width:260px;
+    padding:10px;
+    border-radius: 20px;
+
+    opacity:0;
+    transition: opacity .2s linear;
+    }
+
+.imagem-1:hover .texto {opacity: 1;}
+.imagem-2:hover .texto {opacity: 1;}
+.imagem-3:hover .texto {opacity: 1;}
+.imagem-4:hover .texto {opacity: 1;}
+.imagem-5:hover .texto {opacity: 1;}
+.imagem-6:hover .texto {opacity: 1;}
+.imagem-7:hover .texto {opacity: 1;}
+.imagem-8:hover .texto {opacity: 1;}
+.imagem-9:hover .texto {opacity: 1;}
+
+a {text-decoration: none;}
+
+p {
+    text-align: center;
+    position: relative;
+    bottom: -37%;
+}
+
+div > p {
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    }

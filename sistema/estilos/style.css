@@ -22,37 +22,111 @@ body {
 
 header {
     background-color: #0c5b91;
-    height: 100px;
+    min-height: 100px;
+}
+
+div#sudesb {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-40%, -43%);
+}
+
+div#sudesb img {
+    width: 220px;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 5%;
+    display: block;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
-p {
+header > p {
     text-align: center;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
+    padding: 5px 0px 5px 0px;
 }
 
 nav {
-    background-color: #1a729f;
-    position: relative;
-    bottom: -28%;
-}
-
-li {
     text-align: right;
+    position: relative;
+    top: 18px;
+    background-color: #1a729f;
+    padding: 5px 0px 5px 0px;
 }
 
-li > a {
+nav > a {
+    font-weight: bold;
+    font-size: 1.3em;
+
     color: white;
     text-decoration: none;
+
+    padding: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 5px;
+
+    transition-duration: 0.5s;
 }
 
-li > a:hover {
+nav > a:hover {
     background-color: #124e6b;
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+main {
+    max-width: 1900px;
+    margin: auto;
+    text-align: center;
+}
+
+div.containers {
+    display: inline-block;
+    background-color: #0c5b91;
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 50px 90px 50px 20px;
+}
+
+div > img {
+    width: 200px;
+    margin: 15px 15px 15px 15px;
+}
+
+footer {
+    background-color: #124e6b;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+
+    padding: 2px 0px 7px 0px;
+    height: 25px;
+    width: 100%;
+    bottom: -80%;
+}
+
+#sudesb-footer {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#sudesb-footer:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
