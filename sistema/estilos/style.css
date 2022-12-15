@@ -29,7 +29,7 @@ div#sudesb {
     position: absolute;
     top: 10%;
     left: 10%;
-    transform: translate(-40%, -43%);
+    transform: translate(-47%, -55%);
 }
 
 div#sudesb img {
@@ -38,7 +38,7 @@ div#sudesb img {
 }
 
 #logo {
-    width: 5%;
+    width: 4%;
     display: block;
     margin: auto;
     padding: 5px 0px 5px 0px;
@@ -47,13 +47,13 @@ div#sudesb img {
 h1 {
     text-align: center;
     color: white;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 header > p {
     text-align: center;
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 5px 0px 5px 0px;
 }
 
@@ -62,17 +62,17 @@ nav {
     position: relative;
     top: 18px;
     background-color: #1a729f;
-    padding: 5px 0px 5px 0px;
+    padding: 4px 0px 0px 0px;
 }
 
 nav > a {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
 
     color: white;
     text-decoration: none;
 
-    padding: 5px 5px 5px 0px;
+    padding: 4px 0px 0px 0px;
     margin: 0px 0px 0px 5px;
 
     transition-duration: 0.5s;
@@ -85,7 +85,11 @@ nav > a:hover {
 }
 
 main {
-    max-width: 1900px;
+    background-color: #e5ebeb;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 20px #767a7a54;
+    max-width: 900px;
+    max-height: 1000px;
     margin: auto;
     text-align: center;
 }
@@ -108,10 +112,10 @@ footer {
     background-color: #124e6b;
     color: white;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.9em;
 
-    padding: 2px 0px 10px 0px;
-    height: 25px;
+    padding: 1px 0px 11px 0px;
+    height: 15px;
     width: 100%;
     bottom: -80%;
 }

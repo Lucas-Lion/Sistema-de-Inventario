@@ -3,16 +3,18 @@
 .imagem-1 {
     background-color: #0c5b91;
     background-image: url(../imagens/computadores.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
-    height:280px;
-    width:280px; 
+
+    height:200px;
+    width:200px; 
+
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 70px 100px 90px -50px;
-    display: inline-block;
+    display: block;
+    transform: translate(15%, 50%);
     }
 
 .imagem-2 {
@@ -20,140 +22,142 @@
 
     background-color: #0c5b91;
     background-image: url(../imagens/rede.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px;
+    height:200px;
+    width:200px; 
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 70px 100px 90px 40px;
-    display: inline-block;
+    display: block;
+    transform: translate(170%, -50%);
+
     }
 
 .imagem-3 {
     background-color: #0c5b91;
     background-image: url(../imagens/cabo.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px;  
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 70px 0px 20px 40px;
-    display: inline-block;
+    display: block;
+    transform: translate(330%, -150%);
     }
 
 
 .imagem-4 {
     background-color: #0c5b91;
     background-image: url(../imagens/roteador.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px;  
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 40px 100px 90px -50px;
-    display: inline-block;
+    display: block;
+    transform: translate(16%, -100%);
     }
     
 .imagem-5 {
     background-color: #0c5b91;
     background-image: url(../imagens/rato.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
     
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px;  
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 40px 100px 90px 40px;
-    display: inline-block;
+    display: block;
+    transform: translate(170%, -200%);
+    
     }
 
 .imagem-6 {
     background-color: #0c5b91;
     background-image: url(../imagens/caixa-de-ferramentas.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px; 
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 40px 0px 20px 40px;
-    display: inline-block;
-
+    display: block;
+    transform: translate(330%, -300%);
     }
 
 
 .imagem-7 {
     background-color: #0c5b91;
     background-image: url(../imagens/disco-compacto.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px; 
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 40px 100px 90px -50px;
-    display: inline-block;
+    display: block;
+    transform: translate(15%, -250%);
     }
     
 .imagem-8 {
     background-color: #0c5b91;
     background-image: url(../imagens/toner.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px;  
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
 
-    margin: 40px 100px 90px 40px;
-    display: inline-block;
+
+    display: block;
+    transform: translate(170%, -350%);
     }
 
 .imagem-9 {
     background-color: #0c5b91;
     background-image: url(../imagens/mais.png);  
-    background-size: 250px;
+    background-size: 170px;
     background-repeat: no-repeat;
     background-position: center center;
 
-    height:280px;
-    width:280px; 
+    height:200px;
+    width:200px;  
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
     
-    margin: 40px 0px 60px 40px;
-    display: inline-block;
+    display: block;
+    transform: translate(330%, -450%);
     }
 
 .texto {
@@ -163,8 +167,8 @@
     color:white;
     background-color:rgba(0,0,0,.7);
 
-    height:260px;
-    width:260px;
+    height:180px;
+    width:180px;
     padding:10px;
     border-radius: 20px;
 
@@ -191,7 +195,7 @@ p {
 }
 
 div > p {
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-decoration: none;
     font-weight: bolder;
     color: white;
