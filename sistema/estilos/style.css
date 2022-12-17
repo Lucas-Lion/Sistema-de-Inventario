@@ -1,27 +1,29 @@
 @charset "UTF-8";
 
-/*  
-    PALETA DE CORES
-
-    HEADER = #0c5b91
-    NAV    = #1a729f
-    BODY   = #f0f6f6
-    DIV    = #0c5b91
-    FONT   = #ffffff
-*/
+:root {
+    --HEADER: #0c5b91;
+    --NAV: #1a729f;
+    --NAV-HOVER: #124e6b;
+    --BODY: #f0f6f6;
+    --MAIN: #e5ebeb; 
+    --FONT-COLOR: #ffffff;
+    --FOOTER-COLOR: #124e6b;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--FONT-BASE);
+    color: var(--FONT-COLOR);
 }
 
 body {
-    background-color: #f0f6f6;
+    background-color: var(--BODY);
 }
 
 header {
-    background-color: #0c5b91;
+    background-color: var(--HEADER);
     min-height: 100px;
 }
 
@@ -46,13 +48,11 @@ div#sudesb img {
 
 h1 {
     text-align: center;
-    color: white;
     font-size: 2em;
 }
 
 header > p {
     text-align: center;
-    color: white;
     font-size: 0.9em;
     padding: 5px 0px 5px 0px;
 }
@@ -61,7 +61,7 @@ nav {
     text-align: right;
     position: relative;
     top: 18px;
-    background-color: #1a729f;
+    background-color: var(--NAV);
     padding: 4px 0px 0px 0px;
 }
 
@@ -69,7 +69,6 @@ nav > a {
     font-weight: bold;
     font-size: 1em;
 
-    color: white;
     text-decoration: none;
 
     padding: 4px 0px 0px 0px;
@@ -79,13 +78,13 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #124e6b;
+    background-color: var(--NAV-HOVER);
     padding-left: 30px;
     padding-right: 10px;
 }
 
 main {
-    background-color: #e5ebeb;
+    background-color: var(--MAIN);
     border-radius: 0px 0px 5px 5px;
     box-shadow: 1px 1px 20px #767a7a54;
     max-width: 900px;
@@ -94,23 +93,8 @@ main {
     text-align: center;
 }
 
-div.containers {
-    display: inline-block;
-    background-color: #0c5b91;
-    width: 230px;
-    height: 230px;
-    border-radius: 20px;
-    margin: 50px 90px 50px 20px;
-}
-
-div > img {
-    width: 200px;
-    margin: 15px 15px 15px 15px;
-}
-
 footer {
-    background-color: #124e6b;
-    color: white;
+    background-color: var(--FOOTER-COLOR);
     text-align: center;
     font-size: 0.9em;
 
@@ -122,7 +106,6 @@ footer {
 
 #sudesb-footer {
     text-decoration: none;
-    color: white;
     font-weight: bold;
 }
 
