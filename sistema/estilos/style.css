@@ -31,7 +31,7 @@ div#sudesb {
     position: absolute;
     top: 10%;
     left: 10%;
-    transform: translate(-47%, -55%);
+    transform: translate(-50%, -50%);
 }
 
 div#sudesb img {
@@ -102,6 +102,12 @@ footer {
     height: 15px;
     width: 100%;
     bottom: -80%;
+}
+
+footer > p {
+    text-align: center;
+    position: relative;
+    bottom: -37%;
 }
 
 #sudesb-footer {

@@ -11,27 +11,22 @@ a {
     text-decoration: none
   }
 
-p {
-    text-align: center;
-    position: relative;
-    bottom: -37%;
-}
 
 div > p {
-    font-size: 1.6em;
-    text-decoration: none;
-    font-weight: bolder;
     color: var(--FONT-COLOR-BLOCO);
+    font-size: 1.6em;
+    font-weight: bolder;
+    
+    position: relative;
+    bottom: -37%;
     }
 
-.texto {
-    font-family:Arial;
-    text-align:center;
-        
+.texto {   
     background-color: var(--BLOCO-HOVER);
     
     height:180px;
     width:180px;
+    
     padding:10px;
     border-radius: 20px;
     
@@ -39,7 +34,9 @@ div > p {
     transition: opacity .2s linear;
     }
 
-#opacidade:hover .texto { opacity: 1; }
+#opacidade:hover .texto { 
+    opacity: 1; 
+}
 
 .imagem-1 {
     background-color: var(--BLOCOS);
@@ -57,6 +54,7 @@ div > p {
     display: block;
     transform: translate(15%, 50%);
     }
+
 
 .imagem-2 {
     background-color: var(--BLOCOS);
@@ -90,7 +88,7 @@ div > p {
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
 
     display: block;
-    transform: translate(330%, -150%);
+    transform: translate(326%, -150%);
     }
 
 .imagem-4 {
@@ -142,7 +140,7 @@ div > p {
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
 
     display: block;
-    transform: translate(330%, -300%);
+    transform: translate(326%, -300%);
     }
 
 .imagem-7 {
@@ -194,6 +192,6 @@ div > p {
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
     
     display: block;
-    transform: translate(330%, -450%);
+    transform: translate(326%, -450%);
     }
 
