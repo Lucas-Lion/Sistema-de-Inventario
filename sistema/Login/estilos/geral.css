@@ -162,6 +162,15 @@ footer {
     box-shadow: 0px 0px 8px --SHADOW(0, 0, 0, 0.585);
 }
 
+a {
+    color: var(--FONT-ENVIO);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
