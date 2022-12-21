@@ -28,6 +28,10 @@ header > p {
     font-size: 1.2em;
 }
 
+header > nav > a {
+    padding-right: 10px;
+}
+
 .container-1 {
     display: flex;
     flex-direction: column;
