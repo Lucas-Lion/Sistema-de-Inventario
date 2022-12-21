@@ -88,9 +88,7 @@ main {
     border-radius: 0px 0px 5px 5px;
     box-shadow: 1px 1px 20px #767a7a54;
     max-width: 900px;
-    max-height: 1000px;
     margin: auto;
-    text-align: center;
 }
 
 footer {
@@ -101,7 +99,7 @@ footer {
     padding: 1px 0px 11px 0px;
     height: 15px;
     width: 100%;
-    bottom: -80%;
+
 }
 
 footer > p {

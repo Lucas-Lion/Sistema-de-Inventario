@@ -16,12 +16,13 @@ div > p {
     color: var(--FONT-COLOR-BLOCO);
     font-size: 1.6em;
     font-weight: bolder;
+    text-align: center;
     
     position: relative;
-    bottom: -37%;
+    bottom: -35%;
     }
 
-.texto {   
+.texto {
     background-color: var(--BLOCO-HOVER);
     
     height:180px;
@@ -38,6 +39,25 @@ div > p {
     opacity: 1; 
 }
 
+.container-1 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .imagem-1 {
     background-color: var(--BLOCOS);
     background-image: url(../imagens/computadores.png);  
@@ -50,11 +70,7 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(15%, 50%);
     }
-
 
 .imagem-2 {
     background-color: var(--BLOCOS);
@@ -68,10 +84,6 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(170%, -50%);
-
     }
 
 .imagem-3 {
@@ -86,9 +98,6 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(326%, -150%);
     }
 
 .imagem-4 {
@@ -103,9 +112,6 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(16%, -100%);
     }
     
 .imagem-5 {
@@ -119,11 +125,7 @@ div > p {
     width:200px;  
 
     border-radius: 20px;
-    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(170%, -200%);
-    
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW); 
     }
 
 .imagem-6 {
@@ -138,9 +140,6 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(326%, -300%);
     }
 
 .imagem-7 {
@@ -155,9 +154,6 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-    display: block;
-    transform: translate(15%, -250%);
     }
     
 .imagem-8 {
@@ -172,10 +168,6 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-
-
-    display: block;
-    transform: translate(170%, -350%);
     }
 
 .imagem-9 {
@@ -190,8 +182,5 @@ div > p {
 
     border-radius: 20px;
     box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-    
-    display: block;
-    transform: translate(326%, -450%);
     }
 
