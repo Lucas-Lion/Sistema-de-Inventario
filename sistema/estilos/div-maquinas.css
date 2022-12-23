@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+    --DIV-1:            #0c5b91;
+    --DIV-2:            #f0f6f6;
+    --DIV-FONT-COLOR-1: #f0f6f6;
+    --DIV-FONT-COLOR-2: #000000;
+}
+
+.dados {
+    display: block;
+    background-color: var(--DIV-2);
+    width: 250px;
+    height: 260px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 7px 7px 5px 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+}
+
+.titulo {
+    background-color: var(--DIV-1);
+    width: 250px;
+    height: 80px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}

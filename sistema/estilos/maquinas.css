@@ -5,7 +5,7 @@
     --NAV: #1a729f;
     --NAV-HOVER: #124e6b;
     --BODY: #f0f6f6;
-    --MAIN: #e5ebeb; 
+    --MAIN: #cfd4d4; 
     --FONT-COLOR: #ffffff;
     --FOOTER-COLOR: #124e6b;
     --FONT-BASE: Arial, Helvetica, sans-serif;
@@ -67,27 +67,22 @@ nav {
 
 nav > a {
     font-weight: bold;
-    font-size: 1em;
-
     text-decoration: none;
-
-    padding: 4px 0px 0px 0px;
-    margin: 0px 0px 0px 5px;
-
-    transition-duration: 0.5s;
+    padding: 4px 10px 0px 0px;
 }
 
 nav > a:hover {
     background-color: var(--NAV-HOVER);
-    padding-left: 30px;
-    padding-right: 10px;
+    margin: 0px 2px 0px 2px;
+    transition-duration: 0.5s;
 }
 
 main {
     background-color: var(--MAIN);
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 0px 0px;
     box-shadow: 1px 1px 20px #767a7a54;
-    max-width: 900px;
+    max-width: 60%;
+    padding: 45px 0px 20px 0px;
     margin: auto;
 }
 
